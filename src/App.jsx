@@ -65,8 +65,8 @@ return (
     {!!user &&
     <div  className="App-header">
       <div>
-        <WinnerList winners={winners}/>
         <GameCardList games={games}/>
+        <WinnerList winners={winners}/>
       </div>
     </div>}
   </div>
