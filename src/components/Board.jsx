@@ -13,7 +13,7 @@ cellStylingMap.set("SPLASH", "bg-slate-100");
 const Board = ({cells, playerName}) => {
   return (
     <div className="px-1">
-      <p>{playerName}</p>
+      <p className="font-extralight">{playerName}</p>
       {cells.map((row, i) => (
           <div className="leading-4 py-0" key={i}>
             {row.map((cell, j) => (

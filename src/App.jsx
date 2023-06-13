@@ -61,10 +61,10 @@ useEffect(() => {
 // Return the JSX that will generate HTML for the page
 
 return (
-  <div  className="App px-3">
+  <div  className="App container mx-auto">
     {!!user &&
     <div  className="App-header">
-      <div>
+      <div className="container mx-auto flex">
         <GameCardList games={games}/>
         <WinnerList winners={winners}/>
       </div>
